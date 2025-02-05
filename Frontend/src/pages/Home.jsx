@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <Navbar/>
-    <div className=' text-8xl'>Home</div>
+    <div className='text-8xl'>Home</div>
     </div>
   )
 }
