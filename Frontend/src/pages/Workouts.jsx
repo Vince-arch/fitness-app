@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../components/Navbar';
 
 const Workouts = () => {
   return (
-    <div>Workouts</div>
+    <div>
+      <Navbar/>
+      Workouts</div>
   )
 }
 
