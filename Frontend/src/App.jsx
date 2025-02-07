@@ -14,10 +14,10 @@ function App() {
     <Router>   
         <Routes>
           <Route path="/" element={ <Home />}/>,
-          <Route path='auth' element={<Auth />}/>,
-          <Route path="community" element={<Community/>}/>
-          <Route path="profile" element={<Profile/>}/>
-          <Route path="workouts" element={<Workouts/>}/>
+          <Route path='/auth' element={<Auth />}/>,
+          <Route path="/community" element={<Community/>}/>,
+          <Route path="/profile" element={<Profile/>}/>,
+          <Route path="/workouts" element={<Workouts/>}/>
         </Routes>
     </Router>
   )
