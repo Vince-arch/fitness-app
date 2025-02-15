@@ -15,7 +15,9 @@ function Home () {
     <h1 className='text-white'>some text</h1>
     </div>
 
-    <div name='cards' className='inse'></div>
+    <div name='cards' className='inse'>
+      <WorkoutCard/>
+    </div>
     </div>
   )
 }
