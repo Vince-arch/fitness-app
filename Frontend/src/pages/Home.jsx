@@ -1,11 +1,21 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import banner from '../assets/banner.jpg'
+import WorkoutCard from '../components/WorkoutCard'
 
-const Home = () => {
+function Home () {
   return (
     <div>
       <Navbar/>
-    <div className='text-8xl'>Home</div>
+    <div name='banner' className=''> 
+    
+    <img src={banner} className='h-96 w-screen flex flex-row shadow-2xl inset-0'>
+    </img>
+    
+    <h1 className='text-white'>some text</h1>
+    </div>
+
+    <div name='cards' className='inse'></div>
     </div>
   )
 }
